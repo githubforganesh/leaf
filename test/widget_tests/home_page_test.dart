@@ -12,13 +12,7 @@ void main() {
     //Test: AppBar widget
     expect(find.byType(AppBar), findsOneWidget);
 
-    //Test: 2 Test Widgets
-    expect(find.byType(Text), findsNWidgets(2));
-
     //Test: "Leaf" Text
     expect(find.text("Leaf"), findsOneWidget);
-
-    //Test: "Hello World" Text
-    expect(find.text("Hello World"), findsOneWidget);
   });
 }
