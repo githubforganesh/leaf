@@ -1,4 +1,7 @@
-https://travis-ci.org/githubforganesh/leaf.svg?branch=Home_Page_Dev
+[![Build Status](https://travis-ci.org/githubforganesh/leaf.svg?branch=Home_Page_Dev)](https://travis-ci.org/githubforganesh/leaf)
+
+
+
 # leaf
 
 A new Flutter project.
