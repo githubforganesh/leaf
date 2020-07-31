@@ -11,7 +11,7 @@ void main() {
     expect(find.byType(AspectRatio), findsOneWidget);
 
     //Test: Finds Card
-    expect(find.byType(Card), findsOneWidget);
+    expect(find.byType(Card), findsNothing);
 
     //Test: Finds CircleAvatar
     expect(find.byType(CircleAvatar), findsOneWidget);
