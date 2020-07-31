@@ -9,9 +9,8 @@ void main() {
 
     //Test: Finds AspectRatio
     expect(find.byType(AspectRatio), findsOneWidget);
-
     //Test: Finds Card
-    expect(find.byType(Card), findsNothing);
+    expect(find.byType(Card), findsOneWidget);
 
     //Test: Finds CircleAvatar
     expect(find.byType(CircleAvatar), findsOneWidget);
